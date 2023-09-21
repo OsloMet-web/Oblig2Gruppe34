@@ -1,0 +1,6 @@
+:root {
+    --ff-body: 'Georgia', sans-serif;
+    --ff-heading: 'Gill-Sans', sans-serif;
+    --fs-title: clamp(3rem, 1rem + 10vw, 7rem);
+    
+}
