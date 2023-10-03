@@ -12,8 +12,11 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top:0;
-    
  }
+ html, body, main {
+    height: 100%;
+ }
+ 
  header {
     background-color: grey;
     display: flex;
