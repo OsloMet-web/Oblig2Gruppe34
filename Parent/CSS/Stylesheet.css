@@ -22,25 +22,35 @@ body {
  header {
     background-color: grey;
     display: flex;
-    height: 40px; /* Set a fixed height for the header */
+    height: 80px; /* Set a fixed height for the header */
     align-items: center; /*midtstiller text */
     margin: 0;
     padding: 0;
     padding-left: 5%;
    
 }
+.osloMet{
+    background-color:rgb(255, 129, 0) ;
+
+}
+.black{
+    text-color: black;
+}
+
 nav ul {
     list-style: none;
     padding: 0  ;
     margin: 0; /* Add this line to reset margins */
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
     display: inline;
     margin-right: 20px;
-    padding: 1rem;
+    
     
     
     
@@ -75,17 +85,20 @@ img{
     width: 50%;
     margin-right: auto;
 }
-button{
+nav a{
     /*Oblig1*/
-    background-color: white ;
-    border: 0;
-    color: black;
+    color: white;
+    font-weight: bold;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 20px;
     
+  }
+
+  .black{
+    color:black;
   }
 .listetittel{
     padding-left: 2%; 
@@ -97,3 +110,7 @@ footer{
 .footertext{
     margin-top:0;
 }
+.navbar-logo {
+    width: 70px;
+    height: 50px;
+  }
