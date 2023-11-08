@@ -1,12 +1,15 @@
 
 h1{
     padding:0px;;
+    
 }
 
 html{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
     height: auto;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
     
 }
 body {
@@ -15,9 +18,8 @@ body {
     margin-top:0;
     height: auto;
  }
- main {
-    height: auto;
- }
+
+
  
  header {
     background-color: grey;
@@ -50,10 +52,6 @@ nav li {
     list-style: none;
     display: inline;
     margin-right: 20px;
-    
-    
-    
-    
 }
 
 
@@ -62,6 +60,10 @@ main{
     position: relative  ;
     left: 0;
     right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    flex: 1;
+    overflow: hidden
     
     
 }
@@ -105,10 +107,14 @@ nav a{
     
   }
 footer{
-    background-color: blueviolet;
+    background-color:rgb(255, 129, 0) ;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    padding-top:2;
 }
-.footertext{
+footer p{
     margin-top:0;
+    padding-top:0;
 }
 .navbar-logo {
     width: 70px;
