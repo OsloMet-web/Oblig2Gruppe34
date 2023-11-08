@@ -85,7 +85,9 @@ img{
     display: block;
     margin-left: 5%;
     width: 50%;
+    height: 50%;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 nav a{
     /*Oblig1*/
